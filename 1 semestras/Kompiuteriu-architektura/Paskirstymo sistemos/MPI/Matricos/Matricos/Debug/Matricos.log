@@ -1,0 +1,6 @@
+﻿  Matricos.cpp
+C:\Users\PC\Documents\University\Programming\Kompiuteriu-architektura\Paskirstymo sistemos\MPI\Matricos\Matricos\Matricos.cpp(4,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\PC\Documents\University\Programming\Kompiuteriu-architektura\Paskirstymo sistemos\MPI\Matricos\Matricos\Matricos.cpp(45,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\PC\Documents\University\Programming\Kompiuteriu-architektura\Paskirstymo sistemos\MPI\Matricos\Matricos\Matricos.cpp(21,39): warning C4101: 'darbinis': unreferenced local variable
+LINK : fatal error LNK1168: cannot open C:\Users\PC\Documents\University\Programming\Kompiuteriu-architektura\Paskirstymo sistemos\MPI\Matricos\Debug\Matricos.exe for writing
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1010,5): error MSB6006: "link.exe" exited with code 1168.

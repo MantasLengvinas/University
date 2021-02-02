@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <title>Užduotis su masyvais</title>
+</head>
+<body>
+    
+    <!-- Header -->
+    <div class="header">
+        <ul class="header-list">
+            <li>
+                <div class="name">
+                    Mantas Lengvinas ISI 1 grupė
+                </div>
+            </li>
+            <li>
+                <div class="task">
+                    Užduotis su masyvais
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="inputs">
+            <ul class="input-list">
+                <p style="font-weight: 2;" id="size-warning" class="red-text">Rekomenduojama N naudoti ne didesnį nei 100</p>
+                <li>
+                    <input type="number" placeholder="Įveskite masyvo dydį (N)" id="n">
+                </li>
+                <li>
+                    <input type="number" placeholder="Įveskite k reikšmę" id="k">
+                </li>
+                <li>
+                    <input onclick="loadData()" class="generate-button" type="button" value="Generuoti" style="border: solid 2px #555555; padding: 1px; width: 200px; height: 25px; cursor: pointer;">
+                </li>
+            </ul>
+            
+        </div>
+        <div class="result-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">A[] elementai</th>
+                    </tr>
+                    <tr>
+                        <th>Indeksas</th>
+                        <th>Reikšmė</th>
+                    </tr>
+                </thead>
+                <tbody id="results">
+                </tbody>
+            </table>
+        </div>
+        <div class="result-graph">
+			
+			<canvas id="myChart" width="800px" height="500px"></canvas>
+		
+            <div class="slider-container" id="slider-container">
+                    
+            </div>
+            <p id="sb-value"></p>
+            <p id="se-value"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

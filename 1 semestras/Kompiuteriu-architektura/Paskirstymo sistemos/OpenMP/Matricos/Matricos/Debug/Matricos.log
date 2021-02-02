@@ -1,0 +1,3 @@
+﻿  Matricos.cpp
+C:\Users\PC\Documents\University\Programming\Kompiuteriu-architektura\Paskirstymo sistemos\OpenMP\Matricos\Matricos\Matricos.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Matricos.vcxproj -> C:\Users\PC\Documents\University\Programming\Kompiuteriu-architektura\Paskirstymo sistemos\OpenMP\Matricos\Debug\Matricos.exe
